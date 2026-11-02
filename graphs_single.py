@@ -3,7 +3,7 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-fileName = "random_v_always_low"
+fileName = "always_low_v_random"
 folder = fileName
 
 # _____________ Single Graph W/D/L Black and White _____________
@@ -32,7 +32,7 @@ for i, patch in enumerate(patches):
     patch.set_edgecolor(histogram_background_color)
     
 # plt.show()
-plt.savefig(f"./histograms/{fileName}_3.png")
+plt.savefig(f"./histograms/{fileName}_1.png")
 
 
 # ________________ Single Graph V/H/D Coloured ________________
@@ -85,4 +85,4 @@ ax.legend()
 plt.gca().yaxis.set_major_formatter(PercentFormatter(xmax=1.0, decimals=0))
 plt.tight_layout()
 # plt.show()
-plt.savefig(f"./histograms/{fileName}_4.png")
+plt.savefig(f"./histograms/{fileName}_2.png")

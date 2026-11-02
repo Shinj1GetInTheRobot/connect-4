@@ -4,9 +4,9 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-folder = "random_v_always_center"
-bot1 = ("random", "minimax_none")
-bot2 = ("always_center", "minimax_near_center")
+folder = "always_low_v_random"
+bot1 = ("always_low", "minimax_far_down")
+bot2 = ("random", "minimax_none")
 depth = 4
 figSize = (14, 7)
 
@@ -66,7 +66,7 @@ handles = [
 fig.legend(handles=handles, loc="upper left", bbox_to_anchor=(0.0, 1.0))
 plt.tight_layout(rect=(0.05, 0.0, 1.0, 1.0))
 # plt.show()
-plt.savefig(f"./histograms/{folder}_1.png")
+plt.savefig(f"./histograms/{folder}_3.png")
 
 # __________________ With Winning Move Type ___________________
 
@@ -129,4 +129,4 @@ fig.legend(handles, labels, loc="upper left", bbox_to_anchor=(0.0, 1.0))
 
 plt.tight_layout(rect=(0.05, 0.0, 1.0, 1.0))
 # plt.show()
-plt.savefig(f"./histograms/{folder}_2.png")
+plt.savefig(f"./histograms/{folder}_4.png")
