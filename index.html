@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Connect-4 Visualiser</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Connect-4 Visualiser</h1>
+    <br>
+    <input type="file" id="gameFile" accept=".json,application/json">
+  </header>
+
+  <main class="layout">
+
+    <section>
+      <div class="board" id="board"></div>
+      <section class="controls">
+        <button id="reset">|◀</button>
+        <button id="back">←</button>
+        <button id="next">→</button>
+        <button id="end">▶|</button>
+      </section>
+    </section>
+
+    <aside>
+      <section class="panel">
+        <h2>Game Info</h2>
+        <div class="info-row">
+          <span>Game #</span><strong id="gameNumber">0 / 0</strong>
+        </div>
+        <div class="info-row">
+          <span>Player 1</span><strong id="player1Name">Minimax</strong>
+        </div>
+        <div class="info-row">
+          <span>Player 2</span><strong id="player2Name">Random</strong>
+        </div>
+        <div class="info-row">
+          <span>Current move</span><strong id="moveCount">0 / 0</strong>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Statistics</h2>
+        <div class="info-row">
+          <span>Decisive games/draws</span><strong id="decisiveXDraws">0 / 0</strong>
+        </div>
+        <div class="info-row">
+          <span>Average moves per game / stddev</span><strong id="avgMovesPerGame">0 / 0</strong>
+        </div>
+        <div class="info-row">
+          <span>
+            Player 1
+            <button class="filter-btn-WDL active" data-result="1">wins</button> /
+            <button class="filter-btn-WDL active" data-result="0">draws</button> /
+            <button class="filter-btn-WDL active" data-result="-1">losses</button>
+          </span>
+          <strong id="player1WDL">0 / 0 / 0</strong>
+        </div>
+        <div class="info-row">
+          <span>
+            Player 2
+            <button class="filter-btn-WDL active" data-result="-1">wins</button> /
+            <button class="filter-btn-WDL active" data-result="0">draws</button> /
+            <button class="filter-btn-WDL active" data-result="1">losses</button>
+          </span>
+          <strong id="player2WDL">0 / 0 / 0</strong>
+        </div>
+        <div class="info-row">
+          <span>Filter num moves</span><input type="number" id="moveFilter" min="0" max="42" step="1" placeholder="any">
+        </div>
+        <div class="info-row">
+          <span>Filter winning move type</span>
+          <span>
+            <button class="filter-btn-MT active" data-result="h">H</button>
+            <button class="filter-btn-MT active" data-result="v">V</button>
+            <button class="filter-btn-MT active" data-result="d1">D1</button>
+            <button class="filter-btn-MT active" data-result="d2">D2</button>
+          </span>
+        </div>
+      </section>
+    </aside>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
