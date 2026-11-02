@@ -3,7 +3,7 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-fileName = "always_low_v_random"
+fileName = "always_center_v_random"
 folder = fileName
 
 # _____________ Single Graph W/D/L Black and White _____________

@@ -4,8 +4,8 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-folder = "always_low_v_random"
-bot1 = ("always_low", "minimax_far_down")
+folder = "always_center_v_random"
+bot1 = ("always_center", "minimax_near_center")
 bot2 = ("random", "minimax_none")
 depth = 4
 figSize = (14, 7)
