@@ -4,9 +4,9 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-folder = "always_center_v_random"
+folder = "always_center_v_always_high"
 bot1 = ("always_center", "minimax_near_center")
-bot2 = ("random", "minimax_none")
+bot2 = ("always_high", "minimax_far_up")
 depth = 4
 figSize = (14, 7)
 
