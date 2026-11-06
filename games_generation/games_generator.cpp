@@ -5,7 +5,8 @@
 #include <vector>
 #include <stdexcept>
 #include "Bot.h"
-#include "bots/near_center.h"
+#include "Heuristics.h"
+#include "Position.h"
 using namespace std;
 
 struct Config {
@@ -13,7 +14,7 @@ struct Config {
   int cols = 7;
   int numGames = 100;
   int depth1 = 2;
-  int depth2 = 4;
+  int depth2 = 2;
   string filename;
   string player1;
   string player2;
@@ -67,13 +68,13 @@ Config parseArgs(int argc, char* argv[]) {
   cfg.filename = positional[2];
   if (cfg.numGames < 1)                 throw invalid_argument("-n must be at least 1");
   if (cfg.depth1 < 0 || cfg.depth2 < 0) throw invalid_argument("depths must be at least 0");
-  if ((cfg.rows+1) * cfg.cols > 64)   throw invalid_argument("No more than a (7 by 8) board is supported sorry");
+  if (cfg.rows != 6 || cfg.cols != 7)   throw invalid_argument("Only 6 rows and 7 columns are supported");
   return cfg;
 }
 
 unique_ptr<Bot> makeBot(const string& name, int depth) {
-  if (name == "Center")
-    return make_unique<SearchBot<NearCenter>>(NearCenter{}, depth);
+  if      (name == "Random")   return make_unique<SearchBot<Random>>(Random{}, depth);
+  else if (name == "Center")   return make_unique<SearchBot<NearCenter>>(NearCenter{}, depth);
   throw invalid_argument("Invalid bot: " + name);
 }
 
@@ -86,13 +87,14 @@ void resetGame(Game& game) {
 void playNewGame(Game& game, Bot* bots[2]) {
   resetGame(game);
   Position pos;
+  int col;
   while (pos.legalMoves()) {
-    int col = bots[pos.moves & 1]->chooseMove(pos);
+    col = bots[pos.moves & 1]->chooseMove(pos);
     game.moves.push_back(col);
     pos = pos.after(pos.legalMoves() & colMask(col));
     if (pos.lastMoverWon()) {
       game.winTypeBits = pos.lastMoverWinType();
-      game.result = ((pos.moves & 0b1) ^ 1) + 1;
+      game.result = ((pos.moves & 0b1) * 2) - 1;
       return;
     }
   }
@@ -120,7 +122,7 @@ void writeGame(ostream& out, int index, int rows, int cols,
       out << (k ? ", " : "") << game.moves[k];
   out << "],\n"
       << "    \"num_moves\": " << game.moves.size() << ",\n"
-      << "    \"result\": \"" << game.result << "\",\n"
+      << "    \"result\": " << game.result << ",\n"
       << "    \"winning_move_type\": \"" << wTBtoStr(game.winTypeBits) << "\"\n"
       << "  }";
 }

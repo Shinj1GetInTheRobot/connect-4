@@ -31,15 +31,12 @@ function loadPage() {
   }
 }
 
-function getFilteredGames() {
-  const moveFilterText = moveFilterInput.value.trim();
-  const wantedMoves = (moveFilterText === '') ? null : Number(moveFilterText);
+function getFilteredGames(wantedMoves) {
   return games.filter(game => {
     return activeResults.has(game["result"]) &&
     (wantedMoves === null || wantedMoves < 7 || game["num_moves"] == wantedMoves) &&
     (game["result"] === 0 || [...activeMoveTypes].some(c => game["winning_move_type"] === undefined || game["winning_move_type"].includes(c)))
-  });                                       // ^^ check is null for backwards compatibility :)
-    
+  });                                       // ^^ check if null for backwards compatibility :)
 }
 
 // Load a JSON game file
@@ -53,7 +50,7 @@ gameFile.addEventListener("change", async (event) => {
     currentMove = 0;
     currentGame = 0;
     games = Object.values(data);
-    filteredGames = getFilteredGames();
+    filteredGames = getFilteredGames(null);
     game = games[currentGame];
     renderBoard();
     renderStats();
@@ -93,7 +90,7 @@ function applyFilter() {
   if (games == null) return;
   const text = moveFilterInput.value.trim();
   const wantedMoves = text === '' ? null : Number(text);
-  filteredGames = getFilteredGames();
+  filteredGames = getFilteredGames(wantedMoves);
   currentGame = 0;
   currentMove = 0;
   game = filteredGames[currentGame];
