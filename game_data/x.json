@@ -1,0 +1,902 @@
+{
+  "1": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 3, 4, 1, 5, 5, 2, 0, 6, 6, 3, 3, 2, 3, 2, 2, 4, 1, 4, 4, 3, 6, 3, 4, 4, 0, 6, 6, 2, 2, 0, 0, 6, 0, 5, 5],
+    "num_moves": 36,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "2": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 5, 6, 3, 2, 2, 1, 4, 5, 2, 6, 3, 4, 2, 2, 1, 6, 6, 3, 4, 3, 3, 6, 0, 0, 1, 1, 2, 4, 4, 4, 6, 3, 0, 0, 0, 0, 1, 1, 5, 5, 5],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "3": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 2, 5, 3, 4, 4, 6, 1, 3, 4, 3, 1, 3, 3, 6, 3, 2, 6, 1, 1, 6, 6, 1, 5, 6, 4, 4, 0, 4, 1, 5, 5, 2, 2, 2, 0, 0],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "4": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 3, 6, 5, 4, 0, 6, 2, 4, 5, 2, 5, 5, 4, 6, 6, 6, 2, 1, 2, 1, 2, 4, 4, 1, 1, 5, 6, 1, 4, 5, 3, 1, 0, 0, 3, 3, 0, 0, 0, 3, 3],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "5": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 2, 5, 2, 3, 0, 1, 5, 0, 4, 4, 0, 2, 1, 3, 3, 2, 4, 2, 2, 1, 3, 6, 1, 1, 3, 3, 0, 0, 5, 4, 4, 1, 4, 5, 6, 6, 6, 5, 5, 6, 6],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "6": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 5, 5, 3, 1, 4, 6, 5, 1, 4, 5, 1, 4, 3, 3, 0, 1, 0, 5, 0, 0, 4, 1, 6, 1, 5, 0, 0, 4, 3, 3, 3, 2, 2, 2, 6, 6, 6, 6],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "7": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 2, 1, 1, 2, 1, 4, 3, 4, 6, 3, 1, 1, 4, 6, 0, 5, 5, 2, 2, 4, 3, 0, 4, 3, 2, 5, 1, 5, 6, 3, 2, 5, 5, 3, 0, 6, 6, 0, 0, 4, 0],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "8": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 0, 3, 5, 6, 1, 5, 3, 1, 1, 5, 2, 0, 2, 5, 5, 2, 0, 1, 2, 6, 0, 0, 2, 0, 3, 3, 3, 3, 4, 4, 4, 2, 4],
+    "num_moves": 34,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "9": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 5, 2, 0, 2, 2, 1, 2, 1, 6, 4, 0, 6, 2, 2, 6, 6, 3, 3, 4, 5, 6, 4, 4, 4, 5, 5, 3, 3, 6, 5, 4, 3, 0, 0, 1, 1, 0, 1, 5, 1],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "10": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 5, 4, 6, 4, 1, 0, 1, 5, 1, 1, 2, 0, 5, 6, 6, 6, 3, 3, 4, 4, 0, 0, 5, 0, 6, 4, 0, 6, 1, 5, 3, 3, 3, 3, 4, 1, 2, 2],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "d1+d2"
+  },
+  "11": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 4, 5, 1, 5, 5, 1, 4, 2, 4, 4, 1, 3, 2, 6, 5, 2, 2, 4, 1, 6, 1, 1, 0, 4, 0, 6, 6, 6, 2, 6, 5, 2, 0, 0, 0, 0, 3, 3, 3, 3],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "12": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 1, 2, 3, 5, 3, 4, 5, 5, 3, 3, 4, 1, 0, 0, 3, 0, 3, 1, 4, 5, 6, 6, 1, 1, 4, 4, 2, 5, 5, 4, 6, 1, 6, 2, 2, 2, 6, 6, 0, 0, 0],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "13": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 0, 6, 6, 5, 3, 0, 6, 4, 1, 2, 4, 5, 0, 6, 1, 5, 5, 3, 2, 2, 4, 3, 2, 3, 3, 1, 1, 4, 0, 2, 3, 1, 1, 6, 4, 2, 0, 0, 6, 5, 5],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "14": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 4, 6, 2, 2, 2, 5, 3, 1, 4, 6, 2, 1, 5, 5, 0, 0, 3, 4, 1, 1, 4, 1, 1, 2, 6, 6, 0, 3, 3, 6, 3, 2, 4, 4, 3, 6, 0, 0, 0, 5, 5],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "15": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 2, 2, 2, 6, 3, 3, 5, 4, 5, 0, 1, 3, 4, 3, 3, 3, 5, 5, 0, 0, 6, 5, 0, 2, 1, 5, 2, 1, 1, 0, 0, 1, 2, 4, 4],
+    "num_moves": 36,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "16": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 5, 3, 4, 4, 0, 5, 3, 3, 4, 6, 6, 0, 3, 3, 4, 6, 6, 5, 4, 4, 1, 2, 3, 2, 6, 2, 2, 2, 1, 0, 1, 1, 1, 6, 0, 0, 1, 5, 5, 2, 0],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "17": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 1, 4, 2, 3, 0, 6, 5, 0, 0, 6, 4, 1, 6, 2, 6, 3, 3, 6, 6, 1, 1, 4, 5, 3, 2, 2, 3, 2, 3, 1, 1, 2, 0, 5, 5, 5, 5, 0, 4, 4, 4],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "18": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 0, 1, 0, 0, 0, 4, 2, 5, 1, 6, 3, 2, 3, 1, 3, 3, 6, 3, 1, 1, 0, 2, 6, 5, 5, 3, 6, 6, 0, 5, 6, 1, 2, 2, 2, 5, 4, 4],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "19": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 0, 6, 3, 3, 3, 4, 6, 6, 6, 0, 4, 1, 0, 5, 0, 0, 4, 1, 1, 3, 3, 3, 1, 0, 5, 5, 5, 4, 4, 5, 5, 1, 4, 2, 2, 6, 2, 2, 2],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "20": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 1, 4, 6, 1, 5, 6, 6, 2, 5, 4, 6, 4, 4, 6, 4, 5, 0, 4, 2, 2, 5, 6, 2, 2, 2, 0, 5, 3, 5, 0, 0, 0, 1, 1, 3, 3],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "21": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 3, 2, 4, 5, 2, 0, 3, 4, 2, 5, 2, 2, 6, 0, 1, 3, 6, 4, 3, 3, 6, 6, 2, 3, 4, 4, 6, 4, 1, 0, 0, 0, 1],
+    "num_moves": 34,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "22": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 4, 5, 6, 3, 2, 5, 2, 2, 3, 6, 1, 1, 4, 4, 6, 3, 3, 6, 6, 1, 3, 1, 1, 4, 3, 6, 2, 4, 0, 2, 1, 2, 5, 5, 5, 5, 0, 0],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "23": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 6, 0, 4, 4, 0, 2, 1, 2, 3, 1, 1, 3, 2, 1, 2, 4, 0, 1, 3, 3, 3, 0, 2, 2, 5, 6, 1, 4, 4, 4, 6, 0, 6, 0, 6, 6, 5, 5],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "24": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 4, 5, 1, 4, 6, 1, 5, 4, 1, 3, 3, 6, 2, 0, 4, 1, 3, 2, 3, 3, 0, 2, 1, 6, 6, 3, 6, 2, 2, 0, 0, 2, 1, 6, 4, 0, 4, 5, 5],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "25": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 5, 4, 0, 4, 3, 0, 1, 6, 0, 0, 3, 0, 2, 2, 3, 3, 4, 2, 1, 3, 4, 4, 1, 1, 1, 4, 6, 6, 3, 2, 2, 5, 6, 6, 1, 2, 6, 5, 5],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "26": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 6, 3, 3, 2, 4, 0, 1, 3, 3, 2, 6, 5, 6, 6, 5, 1, 4, 3, 6, 4, 1, 3, 1, 2, 2, 4, 6, 2, 1, 1, 2, 4, 4, 0, 0, 0, 0, 0, 5, 5],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "h+d1"
+  },
+  "27": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 2, 2, 2, 0, 1, 3, 3, 4, 5, 4, 1, 0, 4, 2, 0, 2, 6, 3, 4, 6, 0, 0, 6, 4, 1, 1, 5, 3, 5, 5, 3, 4, 3, 0, 6, 6, 6, 1, 1, 5, 5],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "28": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 2, 4, 4, 5, 6, 0, 6, 2, 4, 5, 1, 3, 1, 3, 3, 5, 5, 5, 4, 4, 6, 6, 2, 2, 1, 1, 2, 2, 6, 6, 4, 0, 3, 3, 0, 5, 0, 0, 0, 1, 1],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "29": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 3, 5, 6, 0, 1, 4, 2, 1, 4, 5, 0, 1, 3, 1, 1, 5, 5, 4, 5, 3, 4, 2, 2, 2, 2, 6, 6, 4, 6, 1, 5, 3, 4, 0, 0, 0, 2, 3, 0, 6, 6],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "30": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 6, 3, 4, 6, 4, 4, 4, 4, 0, 0, 1, 1, 5, 4, 5, 1, 1, 0, 1, 0, 0, 5, 3, 6, 5, 3, 3, 1, 5, 3, 3, 0, 6, 6, 6, 2, 2],
+    "num_moves": 38,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "31": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 2, 6, 4, 2, 3, 6, 3, 2, 6, 3, 6, 6, 4, 2, 2, 2, 4, 4, 0, 3, 0, 1, 4, 4, 0, 0, 3, 1, 1, 1],
+    "num_moves": 31,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "32": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 0, 5, 5, 1, 6, 6, 0, 1, 0, 0, 1, 2, 3, 2, 0, 4, 2, 4, 3, 3, 2, 4, 4, 1, 5, 5, 2, 2, 6, 1, 6, 4, 4, 6, 5, 6, 3, 3, 5, 3, 1],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "33": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 0, 3, 2, 4, 6, 0, 6, 5, 1, 4, 5, 0, 6, 6, 4, 5, 5, 2, 3, 3, 4, 5, 6, 1, 1, 0, 0, 2, 2, 1, 3, 3, 2, 0, 2, 6, 3, 4, 4, 1, 1],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "h+d2"
+  },
+  "34": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 4, 5, 6, 1, 0, 1, 4, 5, 1, 5, 5, 3, 6, 2, 3, 0, 1, 3, 1, 1, 3, 5, 5, 0, 0, 3, 2, 0, 2],
+    "num_moves": 30,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "35": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 6, 1, 1, 6, 3, 3, 6, 6, 1, 6, 0, 5, 0, 0, 0, 4, 6, 3, 4, 0, 5, 3, 3, 1, 2, 2, 2, 2, 0, 4, 4, 1, 2, 3, 2, 5, 5, 4, 5, 4, 5],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "36": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 5, 4, 2, 2, 6, 1, 5, 6, 4, 4, 1, 3, 6, 4, 6, 1, 6, 6, 2, 2, 5, 5, 1, 3, 2, 3],
+    "num_moves": 27,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "37": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 6, 1, 5, 0, 1, 3, 2, 3, 1, 6, 2, 1, 6, 5, 5, 5, 3, 5, 3, 6, 3, 3, 6, 6, 2, 2, 1, 2, 0, 0, 2, 5, 0, 0, 0, 4, 4, 4, 4],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "38": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 0, 1, 5, 3, 5, 5, 0, 1, 0, 0, 4, 2, 2, 4, 2, 2, 3, 3, 4, 5, 4, 5, 5, 3, 3, 4, 3, 4, 0, 6, 2, 6, 6, 2, 6, 6, 0, 1, 1],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "d1+d2"
+  },
+  "39": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 5, 6, 5, 2, 3, 1, 4, 3, 3, 3, 5, 5, 1, 3, 2, 2, 2, 3, 5, 1, 6, 0, 0, 2, 6, 6, 0, 0, 1, 6, 5, 6, 1, 1, 4, 4],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "40": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 6, 2, 2, 0, 2, 5, 4, 4, 0, 3, 1, 3, 2, 2, 4, 3, 3, 5, 6, 4, 5, 3, 2, 0, 5, 1, 4, 6, 4, 1, 5, 5, 0, 0, 6, 3, 6, 6, 1, 1, 1],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "41": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 5, 1, 0, 4, 2, 1, 4, 1, 1, 2, 3, 6, 3, 4, 3, 3, 3, 4, 6, 5, 4, 1, 4, 6, 5, 6, 6, 6, 5, 0, 5, 5, 1, 0, 0, 0, 0, 2, 2],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h+d2"
+  },
+  "42": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 4, 5, 0, 6, 6, 4, 3, 3, 5, 3, 5, 0, 2, 1, 2, 6, 3, 6, 4, 1, 5, 5, 1, 5, 6, 3, 3, 1, 0, 0, 0, 0, 1, 1, 4, 4],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "43": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 6, 4, 1, 2, 2, 5, 5, 2, 3, 4, 3, 3, 1, 0, 3, 1, 5, 5, 5, 2, 6, 0, 0, 6, 6, 0, 0, 2, 2, 1, 3, 5, 6, 6, 1, 1, 4, 4],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "44": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 1, 3, 6, 4, 2, 0, 3, 5, 2, 1, 2, 2, 3, 0, 5, 0, 0, 3, 4, 0, 4],
+    "num_moves": 22,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "45": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 2, 3, 2, 3, 3, 0, 3, 6, 5, 1, 3, 3, 2, 2, 0, 6, 2, 0, 0, 2, 4, 6, 6, 0, 6, 5, 4, 5, 4, 4, 1, 5, 4],
+    "num_moves": 34,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "46": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 4, 6, 3, 6, 0, 3, 2, 5, 5, 6, 6, 6, 5, 4, 4, 6, 1, 1, 1, 4, 5, 5, 3, 4, 1, 1, 4, 3, 3, 5, 0, 3, 0, 0, 0, 0, 2, 2],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "47": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 1, 2, 2, 3, 4, 0, 3, 4, 5, 6, 6, 1, 4, 1, 6, 1, 1, 3, 3, 0, 6, 6, 0, 0, 4, 3, 1, 3, 0, 2, 2, 2, 0, 5, 4, 4, 2, 5, 5],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h+d1"
+  },
+  "48": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 3, 0, 4, 5, 4, 5, 5, 2, 4, 4, 3, 3, 0, 0, 6, 4, 6, 6, 6],
+    "num_moves": 21,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "49": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 0, 0, 1, 5, 1, 0, 3, 0, 0, 4, 6, 6, 4, 4, 3, 3, 2, 2, 1, 1, 5, 4, 6, 4, 4, 6, 3, 6, 1, 6, 1, 3, 5, 5],
+    "num_moves": 36,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "50": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 1, 2, 2, 4, 1, 0, 1, 1, 6, 5, 3, 3, 5, 6, 6, 6, 2, 6, 5, 5, 3, 1, 5, 6, 2, 2, 1, 5, 3, 3, 3, 4, 4],
+    "num_moves": 34,
+    "result": -1,
+    "winning_move_type": "h+d2"
+  },
+  "51": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 5, 6, 4, 0, 3, 0, 2, 1, 2, 2, 3, 4, 0, 4, 0, 4, 4, 0, 1, 3, 1],
+    "num_moves": 22,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "52": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 2, 6, 1, 6, 0, 2, 2, 2, 4, 3, 5, 1, 5, 3, 4, 3, 3, 2, 0, 4, 6, 1, 0, 0, 2, 4, 5, 5, 5, 3, 5, 4, 4, 3, 0, 1, 1, 1, 6, 6],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "53": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 3, 1, 5, 0, 1, 5, 4, 2, 1, 3, 6, 3, 3, 2, 6, 5, 6, 6, 1, 1, 1, 3, 0, 2, 2, 3, 5, 5, 0, 0, 0, 6, 6, 2, 2, 0, 4, 4],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h+d1"
+  },
+  "54": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 0, 4, 2, 4, 3, 1, 0, 5, 6, 0, 3, 0, 6, 1, 0, 1, 1, 4, 4, 0, 4, 6, 3, 3, 5, 5, 3, 3, 6, 6, 1, 1, 4, 2, 2],
+    "num_moves": 36,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "55": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 6, 3, 0, 4, 1, 0, 4, 4, 4, 5, 6, 4, 5, 4, 2, 3, 1, 3, 3, 5, 6, 6, 3, 6, 5, 6, 5, 1, 1, 0, 1, 0, 0, 5, 1, 2, 2, 2, 2, 2],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "56": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 5, 4, 2, 3, 3, 0, 0, 3, 1, 2, 5, 0, 5, 5, 0, 0, 2, 0, 1, 3, 4, 3, 3, 1, 1, 1, 6, 6, 6, 6, 5, 5, 6, 6, 2, 4, 2, 4],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h+d1"
+  },
+  "57": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 0, 1, 4, 4, 5, 3, 2, 6, 2, 5, 0, 3, 0, 0, 2, 2, 4, 2, 5, 6, 6, 0, 6, 1, 0, 1, 1, 2, 1, 5, 6, 6, 1, 3, 3, 4, 3, 4, 3, 5, 5],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "58": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 0, 5, 2, 3, 4, 2, 1, 6, 5, 3, 3, 3, 2, 0, 6, 3, 6, 0, 2, 5, 5, 0, 0, 0, 5, 6, 4, 2, 1, 1, 1, 1, 5, 1, 3, 6, 6, 4, 4],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "59": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 4, 5, 4, 2, 4, 4, 3, 2, 2, 0, 0, 0, 2, 6, 6, 2, 1, 5, 1, 1, 1, 5, 5, 5, 6, 2, 5, 0, 0, 0, 4, 1, 4, 6, 6, 3, 3],
+    "num_moves": 38,
+    "result": -1,
+    "winning_move_type": "h+d2"
+  },
+  "60": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 2, 0, 3, 4, 1, 5, 4, 5, 0, 5, 5, 5, 5, 1, 6, 6, 4, 0, 0, 1, 4, 4, 3, 3, 2, 3, 4, 3, 3, 2, 2, 2, 0, 1, 1, 0, 1, 6, 6, 6],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "61": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 4, 1, 6, 1, 6, 2, 6, 6, 1, 2, 4, 1, 2, 4, 4, 1, 6, 4, 5, 0, 3, 3, 0, 3, 3, 3, 6, 1, 0, 4, 3, 0, 0, 0, 5, 2],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "62": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 2, 5, 3, 4, 3, 3, 0, 1, 2, 4, 3, 0, 3, 2, 2, 5, 4, 6, 1, 4, 0, 0, 2, 3, 4, 6, 6, 1, 5, 2, 5],
+    "num_moves": 32,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "63": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 1, 1, 2, 0, 4, 3, 4, 1, 4, 4, 5, 5, 6, 3, 2, 2, 2, 3, 3, 4, 3, 0, 0, 3, 1, 0, 5, 4, 5, 6, 0, 2, 2, 5, 5, 1, 0, 6, 1, 6, 6],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "64": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 3, 6, 4, 6, 6, 5, 2, 1, 6, 1, 1, 1, 6, 1, 0, 3, 4, 2, 0, 4, 5, 5, 3, 0, 3, 4, 3, 3, 4, 4, 5, 5, 2, 5, 2],
+    "num_moves": 36,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "65": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 4, 4, 0, 2, 1, 6, 4, 5, 0, 1, 0, 0, 6, 2, 1, 6, 6, 5, 5, 2, 2, 2, 5, 2, 5, 6, 0, 1, 6, 4, 4, 3, 3, 0, 3, 4, 1, 1, 3, 3],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "66": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 5, 4, 4, 3, 2, 0, 0, 3, 5, 2, 6, 1, 1, 2, 3, 3, 2, 3, 4, 5, 2, 6, 4, 4, 3, 1, 1, 0, 0, 6, 6, 1, 6, 6, 5, 2, 1, 5, 0, 5, 0],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "67": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 3, 6, 1, 4, 0, 2, 5, 1, 1, 4, 3, 5, 4, 3, 2, 6, 5, 2, 2, 3, 3, 0, 3, 1, 2, 5, 1, 6, 6, 6, 0, 4, 0],
+    "num_moves": 34,
+    "result": -1,
+    "winning_move_type": "d2"
+  },
+  "68": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 2, 2, 3, 1, 6, 3, 1, 3, 1, 5, 1, 1, 5, 2, 2, 3, 3, 5, 0, 0, 5, 4, 5, 4],
+    "num_moves": 25,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "69": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 5, 0, 2, 6, 6, 1, 6, 0, 2, 2, 5, 5, 0, 3, 2, 1, 3, 1, 1, 5, 0, 1, 6, 6, 0, 0, 2, 1, 2, 5, 5, 3, 3],
+    "num_moves": 34,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "70": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 6, 0, 6, 2, 2, 2, 4, 0, 1, 6, 2, 4, 1, 4, 0, 5, 1, 1, 5, 3, 6, 5, 5, 4, 4, 0, 5, 4, 5, 1, 1, 2, 6, 0, 6, 0, 3, 3],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h+d2"
+  },
+  "71": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 2, 3, 3, 5, 4, 6, 2, 2, 3, 5, 1, 1, 5, 3, 0, 0, 3, 5, 2, 2, 6, 3, 1, 1, 0, 1, 1, 0, 6, 6, 6, 5, 2, 5, 0, 0, 4, 4],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "72": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 4, 5, 4, 1, 1, 4, 2, 3, 0, 0, 2, 3, 2, 2, 0, 6, 4, 6, 2, 3, 3, 4, 6, 3, 1, 3, 2, 6, 1, 1, 6, 0, 0, 5, 1, 5, 5, 5, 4, 5, 6],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "73": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 1, 6, 1, 1, 6, 4, 3, 3, 3, 0, 3, 5, 2, 4, 4, 2, 5, 2, 1, 2, 2, 5, 3, 3, 6, 6, 0, 5, 6, 4, 0, 5, 5, 6, 2, 1, 1, 0, 0, 0, 4],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "74": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 0, 4, 2, 6, 0, 2, 2, 5, 3, 1, 6, 3, 4, 0, 0, 3, 5, 3, 3, 4, 4, 0, 1, 0, 2, 1, 1, 1, 3, 4, 4, 2, 1, 2, 5, 6, 5, 5, 5, 6, 6],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "75": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 2, 0, 1, 3, 2, 6, 4, 3, 4, 3, 3, 0, 0, 4, 5, 4, 5, 2, 6, 5, 5, 0, 0, 3, 6, 4, 4, 1, 1, 2, 0, 6, 6, 2, 2, 6, 3, 5, 1, 1],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "76": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 4, 5, 5, 4, 2, 1, 3, 1, 1, 0, 3, 3, 5, 4, 5, 5, 4, 1, 6, 4, 0, 2, 3, 3, 6, 6, 6, 6, 1, 4, 1, 5, 3, 0, 0, 0, 0, 2, 2],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "77": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 4, 5, 6, 6, 1, 6, 1, 1, 2, 5, 5, 6, 6, 2, 0, 4, 5, 2, 2, 2, 0, 4, 0, 0, 4, 0, 6, 5, 4, 0, 2, 4, 5, 1, 1, 3, 3, 3, 3],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "78": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 4, 6, 6, 6, 2, 1, 6, 4, 5, 3, 3, 0, 6, 0, 2, 5, 5, 4, 2, 2, 4, 3, 3, 0, 0, 3, 4, 1, 1, 1, 1, 1, 3, 5, 4, 0, 2, 2, 0, 5, 5],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "h+d1"
+  },
+  "79": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 3, 4, 2, 2, 4, 6, 6, 3, 5, 2, 3, 1, 1, 4, 0, 5, 3, 5, 5, 5, 0, 1, 1, 2, 2, 3, 0, 0, 0, 4, 5, 4],
+    "num_moves": 33,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "80": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 4, 2, 1, 1, 6, 5, 0, 5, 4, 4, 5, 3, 3, 1, 2, 1, 1, 4, 1, 3, 3, 2, 2, 5, 5, 0, 3, 4, 4, 3, 5, 2, 6, 6],
+    "num_moves": 35,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "81": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 4, 0, 1, 2, 0, 3, 5, 1, 0, 2, 0, 0, 6, 4, 0, 5, 6, 4, 4, 6, 2, 5, 5, 4, 2, 1, 2, 2, 5, 1, 1, 1, 6, 5, 6, 6, 3, 3],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "82": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 2, 4, 4, 6, 5, 0, 2, 3, 1, 5, 2, 2, 2, 6, 6, 5, 1, 4, 2, 5, 5, 4, 1, 1, 4, 5, 4, 6, 6, 6, 0, 0, 1, 0, 1, 0, 0, 3, 3],
+    "num_moves": 40,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "83": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 0, 6, 3, 2, 0, 6, 5, 5, 5, 2, 6, 3, 0, 0, 2, 2, 5, 5, 0, 3, 6, 3, 3, 5, 2, 3, 6, 6, 0, 1, 2, 1, 1, 1, 1, 4, 4],
+    "num_moves": 38,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "84": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 3, 3, 2, 4, 4, 1, 2, 1, 1, 2, 4, 1, 6, 6, 0, 5, 0, 6, 5, 0, 3, 3, 3, 0, 0, 3, 0, 4, 4, 5, 6, 1, 5, 6, 4, 2, 2, 5, 6, 5, 2],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "85": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 4, 3, 2, 0, 6, 2, 3, 4, 5, 2, 0, 6, 2, 3, 3, 0, 0, 0, 1, 5, 5, 5, 6, 3, 5, 3, 2, 5, 0, 2, 6, 6, 4, 4, 1, 4],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "86": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 5, 6, 1, 4, 2, 0, 5, 4, 6, 5, 5, 3, 1, 6, 6, 4, 4, 0, 0, 5, 4, 4, 2, 0, 1, 1, 2, 2, 5, 1, 1, 2, 0, 6, 6, 2, 3, 3],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h+d2"
+  },
+  "87": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [1, 3, 5, 2, 4, 5, 5, 5, 4, 0, 3, 4, 1, 2, 6, 0, 3, 0, 0, 5, 5, 0, 6, 0, 3, 3, 6, 6, 3, 6, 6, 4, 4, 1, 2],
+    "num_moves": 35,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "88": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 0, 6, 0, 4, 4, 2, 0, 0, 5, 5, 5, 3, 1, 1, 3, 4, 2, 5, 2, 3, 3, 3, 0, 4, 2, 2, 1, 1, 4, 2, 5, 5, 0, 1, 3, 4, 6, 6, 6, 6, 1],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "89": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 5, 2, 0, 0, 6, 4, 4, 1, 3, 2, 5, 6, 3, 3, 5, 5, 4, 3, 6],
+    "num_moves": 21,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "90": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 2, 1, 2, 4, 1, 0, 1, 4, 4, 3, 5, 6, 4, 3, 1, 1, 2, 2, 3, 3, 5, 5, 1, 6, 2, 3, 5, 5, 5, 2, 4, 3, 0, 0, 0, 6, 6, 6, 6, 0, 0],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "91": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [4, 4, 2, 1, 0, 1, 1, 6, 4, 2, 1, 3, 3, 2, 1, 1, 2, 6, 3, 6, 6, 4, 4, 2, 2, 0, 4, 6, 6, 5, 0, 0, 5, 5, 5],
+    "num_moves": 35,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "92": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 3, 3, 6, 5, 2, 2, 6, 3, 6, 6, 6, 2, 5, 2, 2, 3, 3, 0, 2, 0, 6, 1, 5, 1],
+    "num_moves": 25,
+    "result": 1,
+    "winning_move_type": "d1"
+  },
+  "93": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 6, 2, 4, 6, 4, 5, 6, 1, 3, 4, 6, 0, 6, 6, 4, 2, 2, 0, 0, 2, 0, 2, 5, 5, 5, 3, 1, 5, 5, 0, 4, 1, 2, 4, 3, 3, 3, 3, 1, 1, 1],
+    "num_moves": 42,
+    "result": 0,
+    "winning_move_type": ""
+  },
+  "94": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [5, 2, 0, 5, 0, 0, 3, 3, 6, 4, 4, 5, 5, 6, 6, 6, 6, 3, 2, 0, 2, 0, 0, 6, 4, 3, 3, 3, 5, 2, 5, 1, 2, 1, 2, 1, 1, 1, 1, 4, 4],
+    "num_moves": 41,
+    "result": 1,
+    "winning_move_type": "h"
+  },
+  "95": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 5, 0, 2, 4, 3, 5, 4, 6, 6, 0, 0, 4, 3, 0, 5, 2, 4, 5, 1, 2, 5, 0, 5, 2, 2, 2, 4, 4, 6, 6, 6, 6, 1, 1, 3, 3],
+    "num_moves": 37,
+    "result": 1,
+    "winning_move_type": "d2"
+  },
+  "96": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 3, 4, 2, 4, 6, 0, 2, 1, 6, 3, 0, 1, 1, 6, 5, 6, 1, 0, 4, 6, 6, 4, 0, 5, 5, 5, 3, 0, 2, 2, 1, 1, 4, 4, 2, 3, 2, 3, 0, 5, 5],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "d1"
+  },
+  "97": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [2, 0, 6, 6, 2, 1, 0, 1, 1, 3, 3, 0, 5, 5, 6, 1, 0, 1, 6, 0, 1, 0, 3, 6, 3, 3, 3, 2, 5, 5, 4, 2, 2, 2, 6, 5, 5, 4, 4],
+    "num_moves": 39,
+    "result": 1,
+    "winning_move_type": "h+d2"
+  },
+  "98": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [0, 3, 3, 3, 4, 2, 6, 1, 4, 0, 4, 4, 2, 1, 2, 6, 0, 4, 3, 0, 5, 5, 2, 2, 4, 3, 5, 2, 1, 1, 1, 3, 6, 1, 6, 5, 5, 6, 6, 5, 0, 0],
+    "num_moves": 42,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "99": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [3, 0, 1, 5, 1, 1, 5, 2, 4, 1, 5, 1, 1, 5, 3, 2, 2, 2, 0, 2, 2, 3, 4, 4, 3, 3, 6, 6, 6, 6, 5, 0, 3, 0, 6, 0],
+    "num_moves": 36,
+    "result": -1,
+    "winning_move_type": "h"
+  },
+  "100": {
+    "rows": 6,
+    "columns": 7,
+    "players": {"1": "Random D-10", "2": "Random D-10"},
+    "moves": [6, 6, 4, 4, 2, 1, 6, 4, 0, 6, 0, 4, 4, 2, 0, 0, 1, 3, 1, 1, 6, 5, 1, 3, 5, 5],
+    "num_moves": 26,
+    "result": -1,
+    "winning_move_type": "d1"
+  }
+}

@@ -25,8 +25,10 @@ class Search {
         if (!move) continue;
 
         int alpha = (bestScore == -INF) ? -INF : bestScore - 1;     
-          // (bestScore - 1) to allow consideration of tied moves
-        int score = -negamax(pos.after(move), maxDepth - 1, -INF, -alpha);
+          // check against (bestScore - 1) to allow consideration of tied moves
+        int score = (maxDepth == 0) 
+          ? -heur.evaluate(pos.after(move))
+          : -negamax(pos.after(move), maxDepth - 1, -INF, -alpha);
 
         if (score > bestScore) {
           bestScore = score;
@@ -65,5 +67,5 @@ class Search {
       }
       return best;
     }
-
+    
 };

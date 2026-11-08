@@ -13,8 +13,8 @@ struct Config {
   int rows = 6;
   int cols = 7;
   int numGames = 100;
-  int depth1 = 2;
-  int depth2 = 2;
+  int depth1 = 0;
+  int depth2 = 0;
   string filename;
   string player1;
   string player2;
@@ -74,7 +74,11 @@ Config parseArgs(int argc, char* argv[]) {
 
 unique_ptr<Bot> makeBot(const string& name, int depth) {
   if      (name == "Random")   return make_unique<SearchBot<Random>>(Random{}, depth);
-  else if (name == "Center")   return make_unique<SearchBot<NearCenter>>(NearCenter{}, depth);
+  else if (name == "Center")   return make_unique<SearchBot<Center>>(Center{}, depth);
+  else if (name == "High")   return make_unique<SearchBot<High>>(High{}, depth);
+  else if (name == "Low")   return make_unique<SearchBot<Low>>(Low{}, depth);
+  else if (name == "Left")   return make_unique<SearchBot<Left>>(Left{}, depth);
+  else if (name == "Right")   return make_unique<SearchBot<Right>>(Right{}, depth);
   throw invalid_argument("Invalid bot: " + name);
 }
 
@@ -155,7 +159,7 @@ int main(int argc, char* argv[]) {
   Bot* bots[2] = {bot1.get(), bot2.get()};
   Game game;
   game.moves.reserve(42);
-  ofstream out("./" + cfg.filename + ".json");
+  ofstream out("./game_data/" + cfg.filename + ".json");
   out << "{\n";
   for (int i = 0; i < cfg.numGames; i++) {
     playNewGame(game, bots);

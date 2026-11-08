@@ -4,9 +4,16 @@
 using namespace std;
 using u64 = uint64_t;
 
-constexpr u64 ROW_0_MASK = 0x40810204081ULL;
-constexpr u64 BOARD_MASK  = ROW_0_MASK * 63;
-constexpr u64 colMask(int c) { return u64(63) << (c * 7); }
+constexpr int COLS = 7;
+constexpr int ROWS = 6;
+constexpr u64 rowMask0() {
+  u64 m = 0;
+  for (int c = 0; c < COLS; ++c) m |= 1ULL << (c * (ROWS + 1));
+  return m;
+}
+constexpr u64 BOARD_MASK = rowMask0() * ((1ULL << ROWS) - 1);
+constexpr u64 colMask(int c) { return u64((1ULL << ROWS) - 1) << (c * COLS); }
+constexpr u64 rowMask(int r) { return rowMask0() << r; }
 
 inline bool hasWon(u64 b) {
   for (int s : {1, 7, 6, 8}) {
@@ -33,7 +40,7 @@ struct Position {
   int moves = 0;
 
   u64 occupied() const   { return bb[0] | bb[1]; }
-  u64 legalMoves() const { return (occupied() + ROW_0_MASK) & BOARD_MASK; }   // carry trick: each column has no gaps
+  u64 legalMoves() const { return (occupied() + rowMask0()) & BOARD_MASK; }   // carry trick: each column has no gaps
   Position after(u64 move) const {    // Doesn't modify the original, only returns a copy
     Position p = *this;
     p.bb[moves & 1] |= move;
