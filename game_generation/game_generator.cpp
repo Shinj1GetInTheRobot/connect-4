@@ -73,12 +73,12 @@ Config parseArgs(int argc, char* argv[]) {
 }
 
 unique_ptr<Bot> makeBot(const string& name, int depth) {
-  if      (name == "Random")   return make_unique<SearchBot<Random>>(Random{}, depth);
-  else if (name == "Center")   return make_unique<SearchBot<Center>>(Center{}, depth);
-  else if (name == "High")   return make_unique<SearchBot<High>>(High{}, depth);
-  else if (name == "Low")   return make_unique<SearchBot<Low>>(Low{}, depth);
-  else if (name == "Left")   return make_unique<SearchBot<Left>>(Left{}, depth);
-  else if (name == "Right")   return make_unique<SearchBot<Right>>(Right{}, depth);
+  if      (name == "random")   return make_unique<SearchBot<Random>>(Random{}, depth);
+  else if (name == "center")   return make_unique<SearchBot<Center>>(Center{}, depth);
+  else if (name == "high")   return make_unique<SearchBot<High>>(High{}, depth);
+  else if (name == "low")   return make_unique<SearchBot<Low>>(Low{}, depth);
+  else if (name == "left")   return make_unique<SearchBot<Left>>(Left{}, depth);
+  else if (name == "right")   return make_unique<SearchBot<Right>>(Right{}, depth);
   throw invalid_argument("Invalid bot: " + name);
 }
 
@@ -144,7 +144,8 @@ int main(int argc, char* argv[]) {
   } catch (const exception& e) {
     cerr  << "Error: " << e.what() << "\n"
           << "Usage: " << argv[0]
-          << " <heuristic1> <heuristic2> <filename> [-rows=ROWS] [-cols=COLS] [-n=GAMES] [-d1=DEPTH] [-d2=DEPTH]\n";
+          << " <heuristic1> <heuristic2> <filename> [-rows=ROWS] [-cols=COLS] [-n=GAMES] [-d1=DEPTH] [-d2=DEPTH]\n"
+          << "heuristics: random, center, high, low, left, right\n";
     return 1;
   }
   unique_ptr<Bot> bot1, bot2;
