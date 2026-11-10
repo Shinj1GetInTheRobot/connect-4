@@ -12,7 +12,7 @@ constexpr u64 rowMask0() {
   return m;
 }
 constexpr u64 BOARD_MASK = rowMask0() * ((1ULL << ROWS) - 1);
-constexpr u64 colMask(int c) { return u64((1ULL << ROWS) - 1) << (c * COLS); }
+constexpr u64 colMask(int c) { return ((1ULL << ROWS) - 1) << (c * (ROWS + 1)); }
 constexpr u64 rowMask(int r) { return rowMask0() << r; }
 
 inline bool hasWon(u64 b) {
@@ -49,4 +49,8 @@ struct Position {
   }
   bool lastMoverWon() const { return hasWon(bb[(moves & 1) ^ 1]); }
   int lastMoverWinType() const { return getIfWinType(bb[(moves & 1) ^ 1]); }
+  // Unique key used for position transposition table
+  // Key is a bitboard of the highest slot in each column + current player's pieces
+  // (this can overflow into the sentinel row) 
+  u64 key() const { return occupied() + rowMask0() + bb[moves & 1]; }
 };

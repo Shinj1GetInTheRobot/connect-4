@@ -21,7 +21,7 @@ figSize = (14, 7)
 files = [[] for i in range(maxDepth)]
 for i in range(maxDepth):
   for j in range(maxDepth):
-    files[i].append(f"{bot1[1]}_d{i}_v_{bot2[1]}_d{j}")
+    files[i].append(f"{bot1}_d{i}_v_{bot2}_d{j}")
 
 # __________________ Without Winning Move Type ___________________
 

@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 
-game_data_file = "rand_v_rand"
+game_data_file = "./random_v_random/random_d0_v_random_d0"
 
 
 # Pls don't change below ---------------------------------------------

@@ -3,8 +3,8 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-fileName = "always_center_v_always_high"
-folder = fileName
+fileName = "random_d0_v_random_d0"
+folder = "random_v_random"
 
 # _____________ Single Graph W/D/L Black and White _____________
 
