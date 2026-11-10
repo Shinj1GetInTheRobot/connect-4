@@ -4,33 +4,38 @@ from matplotlib.ticker import PercentFormatter
 import numpy as np
 import json
 
-folder = "always_center_v_always_high"
-bot1 = ("always_center", "minimax_near_center")
-bot2 = ("always_high", "minimax_far_up")
-depth = 4
+folder = "random_v_random"
+bot1 = "random"
+bot2 = "random"
+maxDepth = 4
 figSize = (14, 7)
 
-depth += 1
-files = [[] for i in range(depth)]
-for i in range(depth):
-  bot1Name = bot1[0] if i == 0 else f"{bot1[1]}_d{i}"
-  for j in range(depth):
-    bot2Name = bot2[0] if j == 0 else f"{bot2[1]}_d{j}"
-    files[i].append(f"{bot1Name}_v_{bot2Name}")
+# Usage: 
+#   1) Make a folder with the above name and put it inside ./game_data
+#   2) Put all your game.json files between the 2 bots inside this folder.
+#      Every file must be named exactly bot1name_dX_v_bot2name_dY.json
+#      You must have a file for every pair of X and Y from 0 - maxDepth.
+
+
+# ___________________ Please don't edit below ________________________
+files = [[] for i in range(maxDepth)]
+for i in range(maxDepth):
+  for j in range(maxDepth):
+    files[i].append(f"{bot1[1]}_d{i}_v_{bot2[1]}_d{j}")
 
 # __________________ Without Winning Move Type ___________________
 
 histogram_background_color = "#888"
 bin_colours = ["white", "black"]
 
-fig, axs = plt.subplots(nrows=depth, ncols=depth, figsize=figSize)
+fig, axs = plt.subplots(nrows=maxDepth, ncols=maxDepth, figsize=figSize)
 
 minMoves = 7
 maxMoves = -1
-games = [[[] for j in range(depth)] for i in range(depth)]
+games = [[[] for j in range(maxDepth)] for i in range(maxDepth)]
 
-for i in range(depth):
-  for j in range(depth):
+for i in range(maxDepth):
+  for j in range(maxDepth):
 
     axs[i][j].set_facecolor(histogram_background_color)
     axs[i][j].yaxis.set_major_formatter(PercentFormatter(xmax=1.0, decimals=0))
@@ -72,16 +77,16 @@ plt.savefig(f"./histograms/{folder}_3.png")
 
 bin_colours = ["green", "blue", "red", "orange", "#ff5ccb"]
 histogram_background_color = "#888"
-fig, axs = plt.subplots(nrows=depth, ncols=depth, figsize=figSize)
+fig, axs = plt.subplots(nrows=maxDepth, ncols=maxDepth, figsize=figSize)
 
 
 # games = [Horizontal, Vertical, D1, D2]
-games = [[[[] for i in bin_colours] for j in range(depth)] for i in range(depth)]
+games = [[[[] for i in bin_colours] for j in range(maxDepth)] for i in range(maxDepth)]
 minMoves = 7
 maxMoves = -1
 
-for i in range(depth):
-  for j in range(depth):
+for i in range(maxDepth):
+  for j in range(maxDepth):
     with open(f"./game_data/{folder}/{files[i][j]}.json", "r") as file:
       data = json.load(file)
       maxMoves = data["1"]["columns"] * data["1"]["rows"]
