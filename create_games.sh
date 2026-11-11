@@ -1,5 +1,4 @@
 #!/bin/bash
-
 bots=("random" "center" "high" "low" "left" "right")
 
 # Everyone else
