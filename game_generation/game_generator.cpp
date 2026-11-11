@@ -4,9 +4,9 @@
 #include <memory>
 #include <vector>
 #include <stdexcept>
-#include "Bot.h"
-#include "Heuristics.h"
-#include "Position.h"
+#include "bot.h"
+#include "heuristics.h"
+#include "position.h"
 using namespace std;
 
 struct Config {
@@ -73,12 +73,12 @@ Config parseArgs(int argc, char* argv[]) {
 }
 
 unique_ptr<Bot> makeBot(const string& name, int depth) {
-  if      (name == "random")   return make_unique<SearchBot<Random>>(Random{}, depth);
-  else if (name == "center")   return make_unique<SearchBot<Center>>(Center{}, depth);
-  else if (name == "high")   return make_unique<SearchBot<High>>(High{}, depth);
-  else if (name == "low")   return make_unique<SearchBot<Low>>(Low{}, depth);
-  else if (name == "left")   return make_unique<SearchBot<Left>>(Left{}, depth);
-  else if (name == "right")   return make_unique<SearchBot<Right>>(Right{}, depth);
+  if      (name == "random")   return make_unique<SearchBotTT<Random>>(Random{}, depth);
+  else if (name == "center")   return make_unique<SearchBotTT<Center>>(Center{}, depth);
+  else if (name == "high")   return make_unique<SearchBotTT<High>>(High{}, depth);
+  else if (name == "low")   return make_unique<SearchBotTT<Low>>(Low{}, depth);
+  else if (name == "left")   return make_unique<SearchBotTT<Left>>(Left{}, depth);
+  else if (name == "right")   return make_unique<SearchBotTT<Right>>(Right{}, depth);
   throw invalid_argument("Invalid bot: " + name);
 }
 
